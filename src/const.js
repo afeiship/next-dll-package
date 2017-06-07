@@ -5,8 +5,8 @@ module.exports = {
       'react-dom.min'
     ],
     development:[
-      'react.min',
-      'react-dom.min'
+      'react',
+      'react-dom'
     ]
   }
 };

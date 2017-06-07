@@ -6,7 +6,7 @@
   var env = process.env.NODE_ENV;
   var defaultMap = require('./const');
 
-  var DllPackage = nx.declare('nx.DllPackage', {
+  var NxDllPackage = nx.declare('nx.DllPackage', {
     statics:{
       _cache:{},
       init: function(){
@@ -29,7 +29,7 @@
 
   
   if (typeof module !== 'undefined' && module.exports) {
-    module.exports = DllPackage;
+    module.exports = NxDllPackage;
   }
 
 }());
