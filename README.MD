@@ -1,5 +1,5 @@
 # next-dll-package
-> Get the right package by NODEENV.
+> Get the right package by NODE_ENV.
 
 
 ## usage:
